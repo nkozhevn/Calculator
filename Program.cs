@@ -87,53 +87,13 @@ namespace Calculator
             for (int i = 1; i < elements.Count; i += 2)
             {
                 Console.Write("  ");
-                if (elements[i + 1][0] != '(' && elements[i - 1][elements[i - 1].Length - 1] != ')')
-                {
-                    Console.Write(" | ");
-                }
-                else
-                {
-                    Console.Write("   ");
-                }
+                Console.Write(" | ");
             }
             Console.Write("\n");
             for (int i = 1; i < elements.Count; i += 2)
             {
                 Console.Write("  ");
-                if (elements[i + 1][0] != '(' && elements[i - 1][elements[i - 1].Length - 1] != ')')
-                {
-                    Console.Write(elements[i]);
-                }
-                else
-                {
-                    Console.Write("   ");
-                }
-            }
-            Console.Write("\n");
-            for (int i = 1; i < elements.Count; i += 2)
-            {
-                Console.Write("  ");
-                if (elements[i + 1][0] != '(' && elements[i - 1][elements[i - 1].Length - 1] != ')')
-                {
-                    Console.Write("   ");
-                }
-                else
-                {
-                    Console.Write(" | ");
-                }
-            }
-            Console.Write("\n");
-            for (int i = 1; i < elements.Count; i += 2)
-            {
-                Console.Write("  ");
-                if (elements[i + 1][0] != '(' && elements[i - 1][elements[i - 1].Length - 1] != ')')
-                {
-                    Console.Write("   ");
-                }
-                else
-                {
-                    Console.Write(elements[i]);
-                }
+                Console.Write(elements[i]);
             }
             Console.Write("\n");
             Console.Write("\n");
